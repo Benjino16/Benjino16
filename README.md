@@ -1,5 +1,5 @@
-### My Profile Reademe :))
-(Im so proud)
+### mostly c#
+yeah...
 
 <!--
 **Benjino16/Benjino16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
