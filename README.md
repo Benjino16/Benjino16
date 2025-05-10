@@ -1,5 +1,5 @@
-### mostly c#
-yeah...
+### its me, Ben :)
+I am Ben, a student at the HTW - Berlin. Here you can find a few projects that I programmed in my spare time.
 
 <!--
 **Benjino16/Benjino16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
