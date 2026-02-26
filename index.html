@@ -3,74 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Kathöfer – Portfolio</title>
+    <title>benjino.de</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f5f5f5;
             color: #333;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #2c3e50;
+            text-shadow: 0 0 5px rgba(44, 62, 80, 0.1);
+        }
+        
+        .main-content {
             max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+        
+        .main-content h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+        
+        .description {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 600px;
             margin: 0 auto;
-            padding: 20px;
+            line-height: 1.7;
         }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        .project {
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            padding: 10px;
-            background: #f4f4f4;
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .main-content h2 {
+                font-size: 1.8rem;
+            }
+            
+            .main-content {
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Ben Kathöfer</h1>
-        <p>Softwareentwickler & Open-Source-Enthusiast</p>
+    <header class="header">
+        <h1>benjino.de</h1>
     </header>
-
-    <section>
-        <h2>Über mich</h2>
-        <p>
-            Ich bin ein leidenschaftlicher Entwickler mit Fokus auf Open-Source-Projekte.
-            Hier findest du eine Auswahl meiner Arbeiten.
-        </p>
-    </section>
-
-    <section class="projects">
-        <h2>Meine Projekte</h2>
-        <div class="project">
-            <h3>Projekt 1</h3>
-            <p>Beschreibung des Projekts.</p>
-            <a href="#">GitHub Repository</a>
-        </div>
-        <div class="project">
-            <h3>Projekt 2</h3>
-            <p>Beschreibung des Projekts.</p>
-            <a href="#">GitHub Repository</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>Kontakt: <a href="mailto:code@benjino.de">E-Mail</a> | <a href="https://github.com/Benjino16">GitHub</a></p>
-    </footer>
+    
+    <main class="main-content">
+        <h2>Diese Domain nutze ich für meine persönlichen Projekte.</h2>
+    </main>
 </body>
 </html>
